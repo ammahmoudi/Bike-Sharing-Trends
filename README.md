@@ -52,13 +52,13 @@ This dataset contains the hourly and daily count of rental bikes between the yea
 3. **Data Visualization**:
     - The code generates various plots using libraries like **matplotlib** and **seaborn**. These plots visualize trends in bike-sharing data, such as hourly usage patterns, daily usage, and seasonal variations.
     - Examples include a bar plot showing average bike rentals by hour, a line plot of daily rentals over time, and a heatmap of correlations between features.
-        ![hour distribution](/hour_dist.png)
+    ![hour distribution](/hour_dist.png)
 
 4. **Model Building and Evaluation**:
     - The notebook splits the data into training and testing sets.
     - It trains machine learning models (e.g., linear regression, random forest) to predict bike rentals based on features like temperature, humidity, and wind speed.
     - Model performance metrics (e.g., RMSE) are calculated to evaluate model accuracy.
-       ![residual plot of linear regression](/output_lr.png)
+    ![residual plot of linear regression](/output_lr.png)
 
-      ![residual plot of decision tree](/output_dt.png)
+    ![residual plot of decision tree](/output_dt.png)
 
